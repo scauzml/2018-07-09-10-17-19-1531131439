@@ -184,6 +184,7 @@ public class Practice11Test {
         klass2.appendMember(jerry);
         klass2.assignLeader(jerry);
 
+
         assertThat(systemOut().endsWith("I am Tom. I know Jerry become Leader of Class 2.\n")).isTrue();
     }
 }
